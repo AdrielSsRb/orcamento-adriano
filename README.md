@@ -234,7 +234,7 @@ totals = {
 
 1. **Abrir terminal e crie o projeto**
 ```bash
-npm create vite@latest orcamento_adriano -- --template react
+git clone https://github.com/AdrielSsRb/orcamento-adriano.git
 ```
 
 2. **Entrar na pasta do projeto**
@@ -248,29 +248,12 @@ npm install
 npm install lucide-react
 ```
 
-4. **Criar estrutura de pastas** (dentro de `src/`)
-```bash
-# No Windows (PowerShell)
-mkdir components, data, assets
-
-# No Mac/Linux
-mkdir -p src/components src/data src/assets
-```
-
-5. **Colar os 3 arquivos principais:**
-   - `App_COMPLETO.jsx` → renomear para `App.jsx` em `src/`
-   - `OrcamentoPDF_FINAL.jsx` → renomear para `OrcamentoPDF.jsx` em `src/components/`
-   - `categories.js` → colar em `src/data/`
-
-6. **Adicionar logo**
-   - Copiar `logo.jpeg` para `src/assets/`
-
-7. **Rodar o projeto**
+4. **Rodar o projeto**
 ```bash
 npm run dev
 ```
 
-8. **Abrir no navegador**
+5. **Abrir no navegador**
 ```
 http://localhost:5173
 ```
